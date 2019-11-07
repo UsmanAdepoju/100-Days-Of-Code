@@ -15,12 +15,15 @@ const castVote = (name, votes) => {
     if (name === "Tim") {
         votes[0]++;
         return votes;
+
     } else if (name === "Sally") {
         votes[1]++
             return votes;
+
     } else if (name === "Beth") {
         votes[2]++
             return votes;
+
     } else
         console.log("invalid");
     // Remember to return a value!
